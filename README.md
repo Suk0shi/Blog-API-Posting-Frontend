@@ -10,6 +10,6 @@ Features
 - one frontend site for viewing blog posts
 - one frontend site for making and editing blog posts
 
-![image](https://github.com/Suk0shi/Blog-API-Posting-Frontend/assets/144342852/335624c6-91d7-42cc-98e2-8695b37739a8)
+![image](https://github.com/Suk0shi/Blog-API-Posting-Frontend/assets/144342852/290bf70a-ff1f-432e-9fb9-64e591723473)
 
 
