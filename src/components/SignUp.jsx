@@ -11,7 +11,7 @@ function Shop() {
       const formData = new FormData(e.target);
       const payload = Object.fromEntries(formData);
       
-      fetch(`http://localhost:3000/blog/signUp`, {
+      fetch(`https://bl0gapi.adaptable.app/blog/signUp`, {
         method: 'Post', 
         headers: {
           'Authorization': `${localStorage.getItem('SavedToken')}`,
@@ -39,7 +39,7 @@ function Shop() {
     return (
       <>
         <Header ></Header>
-        <form action="http://localhost:3000/blog/signUp" method="POST" onSubmit={handleSubmit}>
+        <form action="https://bl0gapi.adaptable.app/blog/signUp" method="POST" onSubmit={handleSubmit}>
             <label htmlFor="username"> Username </label>
             <input type="text" name='username' placeholder='username' required/> <br />
             <label htmlFor="password"> Password </label>

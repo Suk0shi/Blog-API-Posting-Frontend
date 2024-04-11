@@ -11,7 +11,7 @@ function Login() {
       const formData = new FormData(e.target);
       const payload = Object.fromEntries(formData);
       
-      fetch(`http://localhost:3000/log-in`, {
+      fetch(`https://bl0gapi.adaptable.app/log-in`, {
         method: 'Post', 
         headers: {
           Accept: 'application/json',
@@ -39,7 +39,7 @@ function Login() {
     return (
       <>
         <Header ></Header>
-        <form action="http://localhost:3000/log-in" method="POST" onSubmit={handleSubmit}>
+        <form action="https://bl0gapi.adaptable.app/log-in" method="POST" onSubmit={handleSubmit}>
             <label htmlFor="username"> Username </label>
             <input type="text" name='username' placeholder='username'/>
             <label htmlFor="password"> Password </label>

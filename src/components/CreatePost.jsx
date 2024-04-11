@@ -11,7 +11,7 @@ function CreatePost() {
       const formData = new FormData(e.target);
       const payload = Object.fromEntries(formData);
       
-      fetch(`http://localhost:3000/blog/post`, {
+      fetch(`https://bl0gapi.adaptable.app/blog/post`, {
         method: 'Post', 
         headers: {
           'Authorization': `${localStorage.getItem('SavedToken')}`,
