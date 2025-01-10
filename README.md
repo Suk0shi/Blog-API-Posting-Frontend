@@ -1,5 +1,7 @@
 # Blog API - Posting Client
 
+Note: The backend server is hosted on a platform with cold start times. As a result, it may take up to 50 seconds for the server to initialize after an extended period of inactivity.
+
 View live: https://blogapiposting.netlify.app
 
 Backend repo: https://github.com/Suk0shi/Blog-Api-Backend
