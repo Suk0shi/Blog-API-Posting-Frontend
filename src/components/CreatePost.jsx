@@ -11,7 +11,7 @@ function CreatePost() {
       const formData = new FormData(e.target);
       const payload = Object.fromEntries(formData);
       
-      fetch(`https://bl0gapi.adaptable.app/blog/post`, {
+      fetch(`${import.meta.env.VITE_API_URL}/blog/post`, {
         method: 'Post', 
         headers: {
           'Authorization': `${localStorage.getItem('SavedToken')}`,
